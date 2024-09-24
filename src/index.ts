@@ -13,6 +13,10 @@ class Optional<T> {
     return this.value !== null;
   }
 
+  isOptional(): boolean {
+    return this.value === null;
+  }
+
   get(): T {
     if (this.value === null) {
       throw new Error("Value is not present");
