@@ -1,0 +1,26 @@
+{
+  "name": "node-optional",
+  "version": "1.0.0",
+  "description": "A utility class for handling optional values",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinomaker-hoo/node-optional.git"
+  },
+  "keywords": [
+    "typescript",
+    "optional",
+    "utility",
+    "optional-class"
+  ],
+  "author": "pinomaker-hoo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
